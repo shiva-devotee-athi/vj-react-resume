@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/vj-react-resume/static/css/main.ca0bbe34.css",
-    "main.js": "/vj-react-resume/static/js/main.c83860bd.js",
+    "main.css": "/vj-react-resume/static/css/main.31364299.css",
+    "main.js": "/vj-react-resume/static/js/main.99987417.js",
     "static/js/787.a69399e1.chunk.js": "/vj-react-resume/static/js/787.a69399e1.chunk.js",
+    "static/media/Star.otf": "/vj-react-resume/static/media/Star.eb4fe249fa2c2799cdc1.otf",
     "static/media/11.jpg": "/vj-react-resume/static/media/11.edccd55341a62db0f927.jpg",
     "static/media/out.jpg": "/vj-react-resume/static/media/out.20339955c91c6714b820.jpg",
+    "static/media/Qafinte400.otf": "/vj-react-resume/static/media/Qafinte400.86c8de36086f732d814d.otf",
     "index.html": "/vj-react-resume/index.html",
-    "main.ca0bbe34.css.map": "/vj-react-resume/static/css/main.ca0bbe34.css.map",
-    "main.c83860bd.js.map": "/vj-react-resume/static/js/main.c83860bd.js.map",
+    "main.31364299.css.map": "/vj-react-resume/static/css/main.31364299.css.map",
+    "main.99987417.js.map": "/vj-react-resume/static/js/main.99987417.js.map",
     "787.a69399e1.chunk.js.map": "/vj-react-resume/static/js/787.a69399e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca0bbe34.css",
-    "static/js/main.c83860bd.js"
+    "static/css/main.31364299.css",
+    "static/js/main.99987417.js"
   ]
 }
