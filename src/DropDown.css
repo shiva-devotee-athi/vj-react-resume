@@ -12,9 +12,11 @@
   margin-left: 20px;
 }
 
-.fa-bars{
+.fa-caret-down{
   font-size: 35px;
   margin-right: 20px;
+  border: 2px solid black;
+  padding: 0px 7px;
 }
 
 .dropdown .educational-details{

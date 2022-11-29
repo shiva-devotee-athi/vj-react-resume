@@ -21,51 +21,59 @@
     -webkit-text-fill-color: transparent;
 }
 
-.interface{
-    font-size: 20px;
+.main-header-text{
+    font-family: After, serif;
+    font-size: 18px; 
+    font-weight: 100;
     margin: 20px;
+    font-weight: lighter;
 }
 
 .list-social-media{
     display: flex;
     justify-content: center;
     gap: 40px; 
-    margin-right: 80px;
-}
-
-.list-social-media li {
-    margin-top: 30px;
     list-style-type: none; 
-    font-size: 30px;
-    
 }
 
-.list-social-media li a{
+.list-social-media .li-icon {
+    /* margin-top: 30px; */
+    font-size: 30px; 
+}
+
+.list-social-media .li-icon a{
     color: white;
 }
 
-li a .fa-facebook:hover{
+.li-icon a .fa-facebook:hover{
     color: blue;
+    filter: drop-shadow(5px 5px 10px blue);
 }
-li a .fa-instagram:hover{
+.li-icon a .fa-instagram:hover{
     color: rgb(255, 41, 173);
+    filter: drop-shadow(5px 5px 10px rgb(255, 41, 173));
 }
-li a .fa-github:hover{
+.li-icon a .fa-github:hover{
     color: rgb(255, 239, 68);
+    filter: drop-shadow(5px 5px 10px rgb(255, 239, 68));
 }
-li a .fa-whatsapp:hover{
-    color: rgb(33, 62, 27);
-}
- .fa-angle-double-down{
-    display: inline-block;
-    margin-top: 50px;
-    font-size: 40px;
-    border-radius: 100%;
-    margin-right: 40px;
-    color: rgb(255, 255, 255);
+.li-icon a .fa-whatsapp:hover{
+    color: rgb(91, 205, 68);
+    filter: drop-shadow(5px 5px 10px rgb(91, 205, 68));
 }
 
-.home-condainer .fa-angle-double-down:hover{
-    background-color: rgb(10, 17, 43,0.6);
-    padding: 5px 14px;
+
+.home-condainer a{
+    margin-top: 60px;
+}
+
+.fa-angle-double-down{
+    font-size: 40px;
+    color: white;
+    filter: drop-shadow(5px 5px 10px rgb(255, 255, 255));
+}
+
+.list-social-media{
+    filter: drop-shadow(5px 5px 10px rgb(255, 255, 255));
+    margin-top: 50px;
 }

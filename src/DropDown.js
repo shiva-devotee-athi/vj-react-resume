@@ -16,7 +16,7 @@ const DropDown = () => {
       <div className="dropdown">
         <div className="educational-details" >
           <p className="educate" >Educational Details &#127891; </p>
-          <i onClick={handleOpen}  className="fa fa-bars" aria-hidden="true"></i>
+          <i onClick={handleOpen}  className="fa fa-caret-down" aria-hidden="true" title="Education-Details"></i>
         </div>
         {open ? (
           <div> <Edu/> </div>

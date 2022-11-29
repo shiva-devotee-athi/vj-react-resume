@@ -40,7 +40,7 @@ function About() {
           <div  className="columns download">
             <p>
               <span className='resume'>Resume:</span>
-              <a href="https://drive.google.com/u/0/uc?id=1fgoBr4ov6OPk_yc9OWd5GdIv2A8yJaav&export=download" className="button" > <i  className="fa fa-download"> </i></a>
+              <a href="https://drive.google.com/u/0/uc?id=1fgoBr4ov6OPk_yc9OWd5GdIv2A8yJaav&export=download"><i className="fa fa-download"> </i> </a> 
             </p>
           </div>
 
