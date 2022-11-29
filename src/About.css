@@ -1,0 +1,56 @@
+#about {
+    display: flex;
+    /* padding-top: 20px; */ padding:60px 0px;
+    overflow: hidden;
+    background: #121d31;
+ }
+ 
+ #about a, #about a:visited  { color: #fff; }
+ #about a:hover, #about a:focus { color: #11ABB0; }
+ 
+ h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: rgb(255, 208, 90);
+    margin-bottom: 12px;
+ }
+
+ .resume {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: rgb(255, 208, 90);
+   /* margin-bottom: 12px; */
+}
+
+ #about p {
+    line-height: 30px;
+    color: #b1b1b1;
+ }
+ #about .profile-pic {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0 10%;
+    border-radius: 10px;
+ }
+ #about .contact-details { width: 41.66667%; }
+ #about .download {
+    width: 58.33333%;
+    padding-top: 6px;
+ }
+ #about .main-col { padding-right: 5%; 
+     margin-top: 60px; margin-left: 50px;}
+ .fa-download {
+    margin-left: 6px;
+    background: rgb(255, 208, 90);
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ .fa-download:hover {
+    background: rgb(255, 255, 255);
+    color: #000000;
+ }
+ #about .download .button i {
+    margin-right: 15px;
+    font-size: 18px;
+ }

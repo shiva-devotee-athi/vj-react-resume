@@ -1,0 +1,71 @@
+
+.home-condainer{
+    background: url(../Img/11.jpg) no-repeat center ;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.home-condainer h1{
+    text-align: center ;
+    font-size: 60px;
+    color:  linear-gradient(to left top, #9eacc1, #b8bfd0, #d1d4df, #e9e9ef, #ffffff);
+}
+.name{
+    background: -webkit-linear-gradient(rgb(206, 193, 193), rgb(214, 95, 95));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.interface{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.list-social-media{
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-right: 80px;
+}
+
+.list-social-media li {
+    margin-top: 30px;
+    list-style-type: none; 
+    font-size: 30px;
+    
+}
+
+.list-social-media li a{
+    color: white;
+}
+
+li a .fa-facebook:hover{
+    color: blue;
+}
+li a .fa-instagram:hover{
+    color: rgb(255, 41, 173);
+}
+li a .fa-github:hover{
+    color: rgb(255, 239, 68);
+}
+li a .fa-whatsapp:hover{
+    color: rgb(33, 62, 27);
+}
+ .fa-angle-double-down{
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 40px;
+    border-radius: 100%;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.home-condainer .fa-angle-double-down:hover{
+    background-color: rgb(10, 17, 43,0.6);
+    padding: 5px 14px;
+}

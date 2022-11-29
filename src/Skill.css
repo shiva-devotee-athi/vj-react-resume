@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+#skill-container {
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txt-1{
+  font: 30px 'opensans-bold', sans-serif;
+  color: rgb(18,29,49);
+  font-weight: 600;
+  margin-top: 20px;
+}
+#skill-container p {
+  line-height: 30px;
+  color: #000000;
+}
+
+#skill-container .main-col { padding-right: 5%; margin-left: 50px;
+}
+
+
+.container{
+  width: 50%;
+  padding: 30px 30px 50px;
+  background-color: white;
+  border: 2px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+  margin-bottom: 10px;
+} 
+
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+.details{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar{
+  border: 3px solid #0d96e0;
+
+  border-radius: 20px;
+}
+.bar div{
+  width: 0;
+  height: 11px;
+  border-radius: 10px;
+  background-color: rgb(18,29,49);
+ 
+
+}
+#html-bar{
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 90%;
+  }
+}
+#css-bar{
+  animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+  100%{
+      width: 75%;
+  }
+}
+#js-bar{
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100%{
+      width: 72%;
+  }
+}
+#React-bar{
+  animation: React-fill 2s forwards;
+}
+@keyframes React-fill{
+  100%{
+      width: 70%;
+  }
+} 
