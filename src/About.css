@@ -1,6 +1,6 @@
 #about {
     display: flex;
-    /* padding-top: 20px; */ padding:60px 0px;
+    /* padding-top: 20px; */ padding:40px 0px;
     overflow: hidden;
     background: #121d31;
  }
@@ -11,18 +11,18 @@
  h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
     color: rgb(255, 208, 90);
-    margin-bottom: 12px;
  }
 
  .resume {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: rgb(255, 208, 90);
-   /* margin-bottom: 12px; */
 }
 
  #about p {
     line-height: 30px;
     color: #b1b1b1;
+  text-align: justify;
+
  }
  #about .profile-pic {
     position: relative;
@@ -31,13 +31,13 @@
     margin: 0 10%;
     border-radius: 10px;
  }
- #about .contact-details { width: 41.66667%; }
+ /* #about .contact-details { width: 41.66667%; } */
  #about .download {
     width: 58.33333%;
     padding-top: 6px;
  }
  #about .main-col { padding-right: 5%; 
-     margin-top: 60px; margin-left: 50px;}
+     margin: 5% ;}
  .fa-download {
     margin-left: 6px;
     background: rgb(255, 208, 90);
@@ -51,6 +51,5 @@
     color: #000000;
  }
  #about .download .button i {
-    margin-right: 15px;
     font-size: 18px;
  }

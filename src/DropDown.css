@@ -22,10 +22,10 @@
   justify-content: space-between;
   align-items: center;
   font-size: 20px;
-  border-bottom: solid rgb(255, 255, 255) 3px;
+  border-bottom: solid rgb(0, 0, 0) ;
   width: 100%;
   color: rgb(0, 0, 0);
-  background-color: #ffffff;
+  background-color: rgb(255, 208, 90) ;
 
 }
 

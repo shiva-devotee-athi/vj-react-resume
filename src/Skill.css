@@ -18,9 +18,10 @@
 #skill-container p {
   line-height: 30px;
   color: #000000;
+  text-align: justify;
 }
 
-#skill-container .main-col { padding-right: 5%; margin-left: 50px;
+#skill-container .main-col { padding-right: 5%; margin: 5%;
 }
 
 

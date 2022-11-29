@@ -35,7 +35,7 @@ const ContactForm = () => {
   return (
 
           <div className="formContainer">
-            <h2 className='txt-1'>Hey User! If You want to <span style={{color:"red"}}> Contact &#128071;</span> </h2>
+            <h2 className='txt-2'>Hey User! If You want to <span style={{color:"red"}}> Contact &#128071;</span> </h2>
             <form ref={form} onSubmit={sendEmail}>
               <div className="formWord">
                 
@@ -59,7 +59,7 @@ const ContactForm = () => {
               </div>
             </form>
             <br/>
-            <div className="txt-1">{result ? <Result/> : null}</div>
+            <div className="txt-2">{result ? <Result/> : null}</div>
           </div>
   )
 }
